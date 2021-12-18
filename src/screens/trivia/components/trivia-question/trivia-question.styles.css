@@ -1,0 +1,38 @@
+.triviaQuestionContainer {
+  color: white;
+  background-color: rgb(46, 46, 46);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10%;
+}
+
+@media (max-width: 500px) {
+  .triviaQuestionContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.optionsContainer {
+  margin-top: 10px;
+}
+
+.triviaQuestionImage {
+  max-height: 200px;
+  max-width: 90%;
+  margin-top: 10px;
+}
+
+.optionButton {
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 20px !important;
+}
+
+.questionsProgress {
+  margin-left: 10%;
+  margin-right: 10%;
+}

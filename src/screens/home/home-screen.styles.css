@@ -1,0 +1,22 @@
+.homeScreenContainer {
+  width: 100%;
+  justify-content: center !important;
+  flex-direction: column;
+  display: flex;
+  text-align: center !important;
+}
+
+.welcomeText {
+  color: white;
+}
+
+.homeImage {
+  display: inline;
+  width: 100%;
+  max-width: 300px;
+}
+
+.playNowButton {
+  margin-top: 10px !important;
+  max-width: 200px;
+}

@@ -1,0 +1,19 @@
+.triviaHeaderContainer {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.triviaHeaderSeparator {
+  border-bottom: 1px gray solid;
+  margin-right: 10%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+  .triviaHeaderSeparator {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

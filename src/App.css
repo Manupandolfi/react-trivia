@@ -1,0 +1,17 @@
+.routesContainer {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+}
+
+.headerText {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.appContainer {
+  justify-content: center !important;
+  text-align: center !important;
+}

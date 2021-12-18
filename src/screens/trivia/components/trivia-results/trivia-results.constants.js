@@ -1,4 +1,4 @@
-export default {
+const triviaResultsConstants = {
   resultMessage: {
     win: 'GANASTE',
     lose: 'PERDISTE',
@@ -10,3 +10,5 @@ export default {
   summary1: 'Respondiste correctamente',
   summary2: 'preguntas de',
 };
+
+export default triviaResultsConstants;

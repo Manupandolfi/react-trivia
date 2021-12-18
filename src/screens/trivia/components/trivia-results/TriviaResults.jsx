@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import images from '../../../../common/assets/images/images';
 import CircularProgressWithLabel from '../../../../common/components/circular-progress-with-label/CircularProgressWithLabel';
@@ -42,7 +42,7 @@ const TriviaResults = ({ results }) => {
             />
           </Box>
           <Box>
-            <img className="resultImage" src={images.win} />
+            <img className="resultImage" src={images.win} alt="win-result-img" />
           </Box>
         </Box>
       ) : (
@@ -62,7 +62,7 @@ const TriviaResults = ({ results }) => {
             />
           </Box>
           <Box>
-            <img className="resultImage" src={images.lose} />
+            <img className="resultImage" src={images.lose} alt="lose-result-img" />
           </Box>
         </Box>
       )}

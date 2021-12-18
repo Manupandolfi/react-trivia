@@ -1,3 +1,6 @@
-export default {
+const triviaScreenConstants = {
   loadingTrivia: 'Cargando trivia',
 };
+
+export default triviaScreenConstants;
+ 

@@ -66,7 +66,7 @@ const TriviaQuestion = ({ question, advanceQuestion, questionsCount, questionNum
         value={resultsRevealed ? 0 : Math.round((timeLeft / question.lifetimeSeconds) * 100)}
       />
       <Typography variant="h4">{question.text}</Typography>
-      <img src={question.image} className="triviaQuestionImage" />
+      <img src={question.image} className="triviaQuestionImage" alt="trivia-question-img" />
       <Box className="optionsContainer">
         {question.options.map((option, key) => {
           return (

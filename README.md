@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React trivia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the solution to a Trivia Game code challenge
 
-## Available Scripts
+## Statement
 
-In the project directory, you can run:
+An enterteinment company wants to make a Q&A game. For that, they prepare trivias every day and load them in JSON format.
+Make a web app, using React (responsive):
+- Once the page has loaded, show the title of the trivia, with it picture and a button to start the gaem
+- Once the trivia started, show the current question wich will be available for the `lifetimeSeconds` secs property amount.
+- Answered or not, the correct answer must be remarked for 1 second before navigate to the next question
+- Once all the questions are done, show a popup, with the trivia result (win or lose).
 
-### `npm start`
+## Trivia capture example
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="511" alt="image" src="https://user-images.githubusercontent.com/14002301/211339902-028722f5-7284-4227-ab6e-09b3a36f4793.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Trivia data example
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`
+{
+  title: 'Test trivia',
+  image: 'https://48tools.com/wp-content/uploads/2015/09/shortlink.png',
+  questions: [
+    {
+      text: 'Question 1',
+      image:
+        'https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg',
+      lifetimeSeconds: 10,
+      options: [
+        { text: 'Option1', correct: true },
+        { text: 'Option2', correct: false },
+        { text: 'Option3', correct: true },
+      ],
+    },
+    {
+      text: 'Question 2',
+      image:
+        'https://filedn.com/ltOdFv1aqz1YIFhf4gTY8D7/ingus-info/BLOGS/Photography-stocks3/stock-photography-slider.jpg',
+      lifetimeSeconds: 5,
+      options: [
+        { text: 'Option1', correct: true },
+        { text: 'Option2', correct: false },
+        { text: 'Option3', correct: false },
+      ],
+    },
+  ],
+};
+`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
